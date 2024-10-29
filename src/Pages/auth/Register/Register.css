@@ -1,0 +1,49 @@
+.orsign {
+  position: relative;
+}
+.orsign::after {
+  content: "";
+  width: 38%;
+  height: 2px;
+  background-color: #121212b2;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.orsign::before {
+  content: "";
+  width: 38%;
+  height: 2px;
+  background-color: #121212b2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.form button {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33.6px;
+  letter-spacing: 0.2px;
+  
+}
+.form h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.form p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form input {
+  border-radius: 4px;
+  box-shadow: none;
+}
+.label,
+.span,
+.orsign {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
